@@ -12,3 +12,5 @@ df = pd.json_normalize(data["Events"])
 
 print(df)
 
+df.to_csv('CloudTrail_Logs.csv')
+
