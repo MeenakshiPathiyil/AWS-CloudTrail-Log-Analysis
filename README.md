@@ -1,6 +1,6 @@
-# CloudTrail Log Analysis
+# AWS CloudTrail Log Analysis
 ## Overview 
-The CloudTrail Log Analysis program is designed to take a JSON file containing CloudTrail logs as input and convert it into a pandas DataFrame. This allows users to perform further analysis on the CloudTrail logs using the powerful data manipulation and analysis capabilities provided by pandas.
+The AWS CloudTrail Log Analysis program is designed to take a JSON file containing AWS CloudTrail logs as input and convert it into a pandas DataFrame. This allows users to perform further analysis on the CloudTrail logs using the powerful data manipulation and analysis capabilities provided by pandas.
 
 ## Requirements
 * Python 3.7
@@ -17,7 +17,7 @@ The CloudTrail Log Analysis program is designed to take a JSON file containing C
    `pip install pandas`
 
 ## Usage
-1. Save your CloudTrail log file in JSON format, named 'ctrail.json', and place it in the same directory as the 'cloud_trail.py' file.
+1. Save your AWS CloudTrail log file in JSON format, named 'ctrail.json', and place it in the same directory as the 'cloud_trail.py' file.
 2. Open the terminal or command prompt and navigate to the directory containing the 'cloud_trail.py' file and the 'ctrail.json' file.
 3. Execute the 'cloud_trail.py' script using the following command:
 
